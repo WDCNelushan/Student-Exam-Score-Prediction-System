@@ -23,6 +23,7 @@ st.markdown(
     """
     <style>
     :root { color-scheme: dark; }
+    html, body, .stApp, .main, .block-container { width: 100% !important; max-width: 100% !important; min-width: 0 !important; margin: 0 auto !important; padding: 0 !important; overflow-x: hidden !important; box-sizing: border-box !important; }
     .stApp { background: #030416; color: #e6eef8; }
     header, footer, #MainMenu, [data-testid="collapsedControl"] { visibility: hidden !important; height: 0 !important; padding: 0 !important; margin: 0 !important; }
     .block-container { padding: 1.5rem 2rem 2.75rem; background: linear-gradient(180deg,#05081a,#081024); }
